@@ -1,8 +1,9 @@
- function evenNumber(num){
-    for(let i = 1; i <=100; i++){
-        if(num % 2 === 0){
-            return num;
-        }
+function displayAllEvenNumbers() {
+    for (let i = 1; i <= 100; i++) {
+      if (i % 2 === 0) {
+        console.log(i);
+      }
     }
- }
- console.log(evenNumber());
+  }
+  
+  displayAllEvenNumbers();
